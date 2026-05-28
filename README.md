@@ -1,23 +1,23 @@
-# 📝 Task CLI — Gerenciador de Tarefas por Linha de Comando
+#  Task CLI — Gerenciador de Tarefas por Linha de Comando
 
 Ferramenta CLI desenvolvida em **Python + Typer + Rich** para gerenciar tarefas diretamente pelo terminal. Suporta prioridades, prazos, categorias, busca e estatísticas, com persistência em **SQLite**.
 
 ---
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- ➕ Adicionar tarefas com título, categoria, prioridade e prazo
-- 📋 Listar tarefas com filtros por categoria e prioridade
-- ✅ Marcar tarefas como concluídas
-- ✏️ Editar qualquer campo de uma tarefa existente
-- 🔍 Buscar tarefas por palavra-chave
-- 🗑️ Deletar tarefas com confirmação
-- 📊 Ver estatísticas: pendentes, concluídas, atrasadas e por categoria
-- 🎨 Interface colorida e tabelas formatadas com Rich
+-  Adicionar tarefas com título, categoria, prioridade e prazo
+-  Listar tarefas com filtros por categoria e prioridade
+-  Marcar tarefas como concluídas
+-  Editar qualquer campo de uma tarefa existente
+-  Buscar tarefas por palavra-chave
+-  Deletar tarefas com confirmação
+-  Ver estatísticas: pendentes, concluídas, atrasadas e por categoria
+-  Interface colorida e tabelas formatadas com Rich
 
 ---
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 | Tecnologia | Uso |
 |---|---|
@@ -28,7 +28,7 @@ Ferramenta CLI desenvolvida em **Python + Typer + Rich** para gerenciar tarefas 
 
 ---
 
-## 📦 Instalação
+##  Instalação
 
 ```bash
 git clone https://github.com/seu-usuario/task-cli.git
@@ -45,7 +45,7 @@ Após instalar, o comando `task` fica disponível globalmente no terminal.
 
 ---
 
-## 💻 Uso
+##  Uso
 
 ```bash
 # Ver tarefas pendentes
@@ -76,7 +76,7 @@ task stats
 
 ---
 
-## 🗂️ Prioridades e Categorias
+##  Prioridades e Categorias
 
 **Prioridades:** `alta` `media` `baixa`
 
@@ -84,7 +84,7 @@ task stats
 
 ---
 
-## ✅ Testes
+##  Testes
 
 ```bash
 pytest tests/ -v
@@ -92,7 +92,7 @@ pytest tests/ -v
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 task-cli/
@@ -110,6 +110,6 @@ task-cli/
 
 ---
 
-## 📄 Licença
+##  Licença
 
 MIT License
